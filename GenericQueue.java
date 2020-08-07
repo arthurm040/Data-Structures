@@ -1,7 +1,7 @@
 public class GenericQueue<E>
 {
-    public Node first;
-    public Node last;
+    private Node first;
+    private Node last;
     private int size;
     
    public class Node
